@@ -1,0 +1,244 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    background: url(./images/Background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    }
+
+.header {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 48vw;
+    top: 5.6vh;
+    left: 4vw;
+}
+
+.logo {
+   width: 8vw;
+   margin-right: 2.36vw;
+
+}
+
+.background{
+    width: 80%;
+    margin: 0
+
+}
+
+.distant{
+    position: fixed;
+    width: 120%;
+}
+
+.wrapper{
+    position: relative;
+    width: 623px;
+    height: 580px;
+    left: calc(100vw - 700px);
+    top: 17vh
+  }
+
+/* @keyframes x-axis-lateral {
+    0% { transform: translate(-10px) translateY(10px); }
+    100% { transform: translate(10px) translateY(-10px); }
+  } */
+
+  .inner {
+    position: absolute;
+    top:0;
+    right:0;
+  }
+
+  .plasma {
+    position: absolute;
+    top:0;
+    right:0;
+  }
+
+.main {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main:hover{
+    display: none;
+ 
+}
+
+.mito {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+.vesi {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+
+.nucleus {
+    position: absolute;
+    top: 170px;
+    right: 140px;
+}
+
+.pore {
+    position: absolute;
+    top: 250px;
+    right: 280px
+}
+
+.imp {
+    position: absolute;
+    right: 120px;
+    top: 70px;
+}
+
+
+.smooth {
+    position: absolute;
+    right: 10px;
+    top: 150px;
+}
+
+.rough {
+    position: absolute;
+    right: 130px;
+    top: 270px;
+}
+
+.micro {
+    position: absolute;
+    left: 120px;
+    top: 100px;
+}
+
+
+.qc-1{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
+
+.qc-2{
+    position: absolute;
+    top: 70px;
+    left: 240px
+}
+
+.qc-3{
+    position: absolute;
+    top: 100px;
+    right: 200px
+}
+
+.qc-4{
+    position: absolute;
+    bottom: 100px;
+    right: 150px
+}
+
+.qc-5{
+    position: absolute;
+    bottom: 110px;
+    left: 240px
+}
+
+.qc-6{
+    position: absolute;
+    bottom: 30px;
+    left: 220px
+}
+
+.qc-7{
+    position: absolute;
+    left: 100px;
+    bottom: 100px
+}
+
+.ribo{
+    position: absolute;
+    bottom: 50px;
+    right: 300px;
+}
+
+.cyto{
+    position: absolute;
+    bottom: 20px;
+    right: 210px;
+}
+
+.micro-tub{
+    position: absolute;
+   left: 100px;
+   bottom: 120px
+} 
+
+
+
+/* -------------Overlay Panel--------------- */
+
+.overlay{
+    display: none;
+    
+}
+
+.overlay{
+    width: 28vw;
+    position: absolute;
+    top: 27vh;
+    right: calc(51vw + 120px);
+}
+
+
+
+.vector{
+    position: relative;
+    right: -295px;
+    top: -320px
+}
+
+
+h2 {
+    margin: 0
+}
+
+.coloration{
+    margin: 0;
+}
+
+.overlay-header {
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
+ 
+}
+
+.overlay-text {
+    width: 357px;
+    min-height: 300px;
+}
+
+p{
+    font-size: 24px;
+    margin: 0
+}
+
+.overlay-team-btn{
+    align-self: flex-start;
+    margin-left: 5%;
+}

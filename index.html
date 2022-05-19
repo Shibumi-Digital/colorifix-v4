@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="./images/colorifix_logo.png" alt="">
+        <img src="./images/heading.png" alt="">
+    </div>
+
+    <div class="wrapper">
+            <img class="inner " src="./images/inner.png" alt="">
+            <img class="plasma " src="./images/plasma.png" onclick="showPanel('plasma')" alt="">
+            <img class="micro" src="./images/micro.png" onclick="showPanel('micro')" alt="">
+            <img class="mito" src="./images/mitochondria.png" onclick="showPanel('mito')" alt="">
+            <img class='micro-tub' src="./images/microtub.png" onclick="showPanel('microtub')" alt="">
+            <img class='imp' src="./images/golgi.png" onclick="showPanel('imp')" alt="">
+           
+            <img class='nucleus' src="./images/nucleus.png" onclick="showPanel('nuc')" alt="">
+            <img class='pore' src="./images/pore.png" onclick="showPanel('pore')" alt="">
+            <img class="smooth" src="./images/rough.png" onclick="showPanel('smooth')" alt="">
+            <img class="rough" src="./images/smooth.png" onclick="showPanel('rough')" alt="">
+            <img class='ribo' src="./images/ribo.png" onclick="showPanel('ribo')" alt="">
+            <img class='cyto' src="./images/cyto.png" onclick="showPanel('cyto')" alt="">
+            <img class='vesi' src="./images/vesi.png" onclick="showPanel('vesi')" alt="">
+            
+            <img class='qc-1 qc' src="./images/QC.png" onclick="showPanel('lyso')" alt="">
+            <img class='qc-2 qc' src="./images/QC-1.png" onclick="showPanel('lyso')" alt="">
+            <img class='qc-3 qc' src="./images/QC-2.png" onclick="showPanel('lyso')" alt="">
+            <img class='qc-4 qc' src="./images/QC-3.png" onclick="showPanel('lyso')" alt="">
+            <img class='qc-5 qc' src="./images/QC-4.png" onclick="showPanel('lyso')" alt="">
+            <img class='qc-6 qc' src="./images/QC-5.png" onclick="showPanel('lyso')" alt="">
+            <img class='qc-7 qc' src="./images/QC-6.png" onclick="showPanel('lyso')" alt="">
+            
+            <!-- <img class='main' src="./images/outer.png" alt=""> -->
+            
+    </div>   
+
+    <div>
+        <img id="mito" class="overlay" src="./images/panel.png" onclick="hidePanel('mito')" alt="">
+        <img id="nuc" class="overlay" src="./images/nucleus-panel.png" onclick="hidePanel('nuc')" alt="">
+        <img id="pore" class="overlay" src="./images/pore-panel.png" onclick="hidePanel('pore')" alt="">
+        <img id="plasma" class="overlay" src="./images/plasma-panel.png" onclick="hidePanel('plasma')" alt="">
+        <img id="micro" class="overlay" src="./images/micro-panel.png" onclick="hidePanel('micro')" alt="">
+        <img id="cyto" class="overlay" src="./images/cyto-panel.png" onclick="hidePanel('cyto')" alt="">
+        <img id="lyso" class="overlay" src="./images/lyso-panel.png" onclick="hidePanel('lyso')" alt="">
+        <img id="rough" class="overlay" src="./images/smooth-panel.png" onclick="hidePanel('rough')" alt="">
+        <img id="microtub" class="overlay" src="./images/microtub-panel.png" onclick="hidePanel('microtub')" alt="">
+        <img id="ribo" class="overlay" src="./images/ribo-panel.png" onclick="hidePanel('ribo')" alt="">
+        <img id="smooth" class="overlay" src="./images/rough-panel.png" onclick="hidePanel('smooth')" alt="">
+        <img id="vesi" class="overlay" src="./images/vesi-panel.png" onclick="hidePanel('vesi')" alt="">
+        <img id="imp" class="overlay" src="./images/imp-panel.png" onclick="hidePanel('imp')" alt="">
+    </div>
+        <!-- </div> -->
+        <!-- <div class="overlay">
+            <div class="overlay-header">
+                <div class='overlay-type'>
+                    <h2>Mitochondria</h2>
+                    <p class='coloration'>Coloration</p>
+                </div>
+                <button>X</button>
+            </div>
+            <div class='overlay-text'>
+                    <p>The Mitochondria are the “lungs” of the cell, where the cell makes ATP – the fundamental energy unit that keeps the cell running. For Colorifix that translates to the moment that cells mix with fabric, where the “magic” happens. Like Mitochondria, Coloration has a distinct genome coming from the Dyeing industry, but without it everything would fall apart.</p>
+            </div>
+            <div class='overlay-team-btn'>
+                    <button>Meet the team</button>
+            </div>
+        </div> -->
+    <!-- </div> -->
+    <script src="./index.js"></script>
+</body>
+</html>
