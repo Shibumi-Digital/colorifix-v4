@@ -1,3 +1,11 @@
+const main = document.querySelector(".main");
+
+main.addEventListener("mouseover", () => {
+  main.classList.remove("main");
+  main.classList.add("hover");
+});
+
+
 function showPanel(panId) {
   var panels = document.getElementsByClassName("overlay");
   for (var i = 0; i < panels.length; i++) {
